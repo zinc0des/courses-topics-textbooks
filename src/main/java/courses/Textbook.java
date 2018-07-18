@@ -24,6 +24,19 @@ public class Textbook {
 		this.title = title;
 		this.course = course;
 	}
+	
+	// Getters
+		public String getTitle() {
+			return title;
+		}
+		
+		public Course getCourse() {
+			return course;
+		}
+		
+		public long getId() {
+			return id;
+		}
 
 	@Override
 	public int hashCode() {
